@@ -1,4 +1,8 @@
 {
-    "references": [{ "path": "./tsconfig-src.json" }],
-    "files": []
+    "compilerOptions": {
+        "outDir": "./target/",
+        "baseUrl": "."
+    },
+    "files": ["./src/main.ts"],
+    "references": [{ "path": "./shared/tsconfig.json" }]
 }

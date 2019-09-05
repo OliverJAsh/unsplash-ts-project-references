@@ -1,3 +1,3 @@
-import { foo } from "helpers/functions";
+import { foo } from "shared/main";
 
 foo;
