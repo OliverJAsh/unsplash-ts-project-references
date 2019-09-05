@@ -1,4 +1,9 @@
 {
-    "references": [{ "path": "./tsconfig-src.json" }],
-    "files": []
+    "compilerOptions": {
+        "composite": true,
+        "declarationMap": true,
+        "outDir": "./target/",
+        "baseUrl": "./src/"
+    },
+    "include": ["./src/**/*"]
 }

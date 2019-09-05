@@ -1,9 +1,0 @@
-{
-    "compilerOptions": {
-        "composite": true,
-        "declarationMap": true,
-        "outDir": "./target/",
-        "baseUrl": "./src/"
-    },
-    "include": ["./src/**/*"]
-}
