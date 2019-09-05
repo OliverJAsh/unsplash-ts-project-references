@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "declarationMap": true,
+        "outDir": "../target-src/"
+    },
+    "references": [
+        { "path": "../shared/tsconfig.json" }
+    ]
+}

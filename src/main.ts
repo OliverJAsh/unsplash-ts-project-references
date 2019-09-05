@@ -1,3 +1,3 @@
-import { foo } from "shared/main";
+import { foo } from "../shared/main";
 
 foo;

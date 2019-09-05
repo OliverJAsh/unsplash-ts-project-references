@@ -1,8 +1,7 @@
 {
-    "compilerOptions": {
-        "outDir": "./target/",
-        "baseUrl": "."
-    },
-    "files": ["./src/main.ts"],
-    "references": [{ "path": "./shared/tsconfig.json" }]
+    "references": [
+        { "path": "./src/tsconfig.json" },
+        { "path": "./shared/tsconfig.json" }
+    ],
+    "files": []
 }
